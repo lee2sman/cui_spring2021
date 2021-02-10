@@ -21,6 +21,9 @@ In the *early years* of computing, we had circuits, switches, lights, and dials.
 
 Computers are complex. IC chips that computers were built from, especially in the earlier years, were expensive. Because of this, computers had a minimal amount of memory. Text was much easier to store and work with, so the priority was placed on text. This became the primary way to interact with a computer. 
 
+
+Video: [keyboards and command line interfaces](https://www.youtube.com/watch?v=4RPtJ9UyHS0) on youtube - PBS Video, 11min
+
 ![example command line interface](http://toastytech.com/guis/textdos1.gif)  
 example command line interface  
 
@@ -137,6 +140,21 @@ echo "It's nice to meet you $varname"
 
 ### Pizza Ordering Command Line Program
 
+Your goal: design command line software for determining the total number of pizzas to order for a group of people.
+
+Your software should be useable by a variety of people, from beginners to command line interfaces to advanced users.
+
+Your program should have help, be intuitive, and ideally, powerful.
+
+At minimum, your program should ask for the total number of people, then print out the ideal number of pizzas to order.
+
+Your program can be more customized for you.
+
+Things to consider:
+- adding ascii art
+- adding a menu
+- adding help
+- adding power features
 
 
 ### Command Line Interface Resources
@@ -160,5 +178,10 @@ Read the excerpt from Design/Interface in The Interface Experience, up to page 4
 Write: In The Interface Experience what concepts from earlier media theorists, technicians and designers stick out to you that can inform our user interface design work?
 
 Read this old but important [Effective Visual Communication for Graphical User Interfaces](https://web.cs.wpi.edu/~matt/courses/cs563/talks/smartin/int_design.html)  
+### User Interface Wall of Shame 
 
+- Read [Blame terrible interface design for the Hawaii missile alert debacle](https://outline.com/L6bNfh)
+- What are examples of bad interfaces you can find in your environment around you? This could be on your phone, computer, but also in th eenvironment around you (doctor's offices, a plane, elevators, public spaces).
+
+Post examples of bad user interfaces to our discord channel. Include some text explaining what's so terrible about it, keeping in mind that some interfaces are combinations of good and bad design.
 
