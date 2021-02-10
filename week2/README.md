@@ -171,14 +171,16 @@ Reminder of desktop metaphors:
 
 We'll review our homework.
 
-### Homework
+### Homework: Finish your Pizza Calculator
+
+### Homework: Reading
 
 Read the excerpt from Design/Interface in The Interface Experience, up to page 46 in the book (which is 25 pages of the pdf).
 
 Write: In The Interface Experience what concepts from earlier media theorists, technicians and designers stick out to you that can inform our user interface design work?
 
 Read this old but important [Effective Visual Communication for Graphical User Interfaces](https://web.cs.wpi.edu/~matt/courses/cs563/talks/smartin/int_design.html)  
-### User Interface Wall of Shame 
+### Homework: User Interface Wall of Shame 
 
 - Read [Blame terrible interface design for the Hawaii missile alert debacle](https://outline.com/L6bNfh)
 - What are examples of bad interfaces you can find in your environment around you? This could be on your phone, computer, but also in th eenvironment around you (doctor's offices, a plane, elevators, public spaces).
