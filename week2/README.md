@@ -160,8 +160,6 @@ Things to consider:
 ### Command Line Interface Resources
 
 - [Command Line Interface Guidelines](https://clig.dev/)  
-  
-  
 
 ### Our Desktops
 
@@ -171,7 +169,7 @@ Reminder of desktop metaphors:
 
 We'll review our homework.
 
-### Homework: Finish your Pizza Calculator
+### OPTIONAL Homework: Submit your Pizza Calculator
 
 ### Homework: Reading
 
@@ -179,7 +177,6 @@ Read the excerpt from Design/Interface in The Interface Experience, up to page 4
 
 Write: In The Interface Experience what concepts from earlier media theorists, technicians and designers stick out to you that can inform our user interface design work?
 
-Read this old but important [Effective Visual Communication for Graphical User Interfaces](https://web.cs.wpi.edu/~matt/courses/cs563/talks/smartin/int_design.html)  
 ### Homework: User Interface Wall of Shame 
 
 - Read [Blame terrible interface design for the Hawaii missile alert debacle](https://outline.com/L6bNfh)
