@@ -173,7 +173,7 @@ We'll review our homework.
 
 ### Homework: Reading
 
-Read the excerpt from Design/Interface in The Interface Experience, up to page 46 in the book (which is 25 pages of the pdf).
+Read the excerpt from Design/Interface in The Interface Experience, up to page 58 in the book (which is 23 pages of the pdf).
 
 Write: In The Interface Experience what concepts from earlier media theorists, technicians and designers stick out to you that can inform our user interface design work?
 
