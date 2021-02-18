@@ -2,14 +2,14 @@ Week 3
 
 ### Today's schedule
 
--   discuss reading
--   Learnability
--   User Interface Wall of Fame/Shame
--   HTML and CSS recap
--   buttons
+- Interfaces - theory
+- Interface design example: Metrocard Machine
+- Learnability
+- User Interface Wall of Fame/Shame
+- HTML and CSS recap
+- buttons
 
 ### Readings
-
 
 > A point where two systems, subjects, organizations, etc., meet and
 > interact. *--dictionary definition*
@@ -222,6 +222,8 @@ Interfaces should use common words, not technical jargon.
 
 HTML / CSS practice
 -------------------
+
+[Starter code](https://glitch.com/~html-css-basic) on Glitch.com
 
 -   HTML
 -   CSS
