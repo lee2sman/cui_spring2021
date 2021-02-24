@@ -10,8 +10,6 @@
   - user-centered design
 - wireframing + prototyping
   - paper prototyping
-- frameworks
-- intro to layout
 
 ### Questions / review CSS Selectors
 
@@ -91,9 +89,7 @@ Justifying content is often used with Flexbox. It allows you to define how items
 
 - [demos](https://css-tricks.com/almanac/properties/f/flex-wrap/) of flex-wrap
 
-
 ### More Design theory 
-
 
 #### Design Principles
 
@@ -151,7 +147,7 @@ The limitations of this model:
 4. Refine interface
 5. Have users test it
 6. Refine interface
-7. Have suers test it
+7. Have users test it
 8. Repeat until interface issues solved
 
 #### The spiral model
@@ -179,15 +175,96 @@ Also consider Simulation (The "Wizard of Oz" approach).
 - GUI implementation:
   - native vs web GUI
 
-#### Homework
-  Read about [Responsive Design](https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/) in Smashing Magazine.  
-- What is it?
+## Paper prototyping - Wireframing
+
+![ui sketch](../assets/images/sketch.jpg)
+
+![ui flowchart mockup](../assets/images/flow.jpg)  
+*[source](https://www.flickr.com/photos/24084766@N07/4595959073/)*
+
+![scratch off wireframe example](../assets/images/scratch-off.jpg)  
+*[source](https://www.flickr.com/photos/thegreatsunra/3657128657/)*
+
+![time UI](../assets/images/time.jpg)  
+*[source](https://www.flickr.com/photos/anthonyarmendariz/4448219885/in/pool-1070674@N20/)*  
+
+## Units of measurement
+
+There are 5+ ways to specify sizes in CSS!
+
+They are: ```px```, ```em```, ```rem```, ```%``` and ```viewport units```.
+
+**em** - Relative to the font-size of the element (2em means 2 times the size of the current font)
+
+**rem** - Relative to font-size of the root element
+
+**%** - Relative to the parent element
+
+**vw** - Relative to 1% of the width of the viewport
+
+**vh** - Relative to 1% of the height of the viewport
+
+**vmin** - Relative to 1% of viewport's smaller dimension
+
+
+```
+div {
+  width: 200px;
+  font-size: 2em;
+}
+p {
+  font-size: 3rem;
+}
+img {
+  width: 50%;
+}
+.container {
+  width: 80vw;
+  height: auto;
+  margin: 10vmin;
+}
+```
+
+More info on [CSS units](https://www.w3schools.com/CSSref/css_units.asp) on w3schools
+
+## Responsive design
+
+What is it?
+
+Design should respond to the user's behavior and environment. This could be based on screen size, orientation (vertical or horizontal), and platform (Mac, Windows, iOS, Android, Linux, etc).
+- 
 - How do you do it?
-  - tip: consider your viewport width, use flexbox, pay attention to font sizes
-- Make a responsive web app!
+  
+1. consider your viewport width
+2. use flexbox
+3. pay attention to font sizes
+
+If the CSS width property is set to 100% of the viewport, the image will be responsive and scale up and down:
+ 
+A better solution, in many cases, will be to use the max-width property instead so that it is not larger than the screen.
+
+#### Media Queries
+
+```
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+```
+
+
+
+#### Resources
 
 Additional resources:
 - basic overview of responsive design in html/css on [W3Schools](https://www.w3schools.com/html/html_responsive.asp)
 - [Responsive Web Design: 50 Examples and Best Practices](https://designmodo.com/responsive-design-examples/)
 
+#### Homework
+Read about [Responsive Design](https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/) in Smashing Magazine.  
+  
 *source: User-Centered Design is adapted from MIT Open Courseware 6.831 User-Centered Design*
