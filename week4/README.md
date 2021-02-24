@@ -11,7 +11,11 @@
 - wireframing + prototyping
   - paper prototyping
 
-### Questions / review CSS Selectors
+## Metrocard UI
+
+![Metrocard ](../assets/images/metrocard.jpg)
+
+![Metrocard screen](../assets/images/metrocard-machine.png)
 
 ## Flexbox
 
