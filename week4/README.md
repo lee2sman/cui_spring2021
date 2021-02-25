@@ -4,8 +4,8 @@
 
 - review MTA Metrocard screen
 - practice flexbox
+- working with fonts
 - responsive design
-- efficiency in design
 - iterative design 
   - user-centered design
 - wireframing + prototyping
@@ -93,7 +93,60 @@ Justifying content is often used with Flexbox. It allows you to define how items
 
 - [demos](https://css-tricks.com/almanac/properties/f/flex-wrap/) of flex-wrap
 
-### More Design theory 
+
+### Working with Fonts
+
+Two slightly different methods:
+
+1. Google Fonts
+2. Importing custom fonts
+
+#### Google Fonts
+
+In this method, you visit the [Google Fonts](https://fonts.google.com/) website. Select a font. Click *Select this style*. From the new that opens in the interface, copy the *<link>* code into the <head> section of your html page. **Make sure you place it before your own stylesheet.**
+
+Then, back to the Google Fonts page, copy the line from the CSS rules box. It will look like this:
+
+```
+font-family: 'Akaya Telivigala', cursive;
+```
+
+Go to your own stylesheet and paste it in the selector for the element you want to change. For example, if you want all text to use that font, then you can place it in the body section on your CSS stylesheet.
+
+
+#### Importing Custom Fonts
+
+Find a font that you like online. There are tens of thousands you can use for free (check the license listed) at [DaFont.com](https://www.dafont.com/). Download the font to your computer. 
+
+In your Glitch.com project, open the assets folder and import the font you just downloaded a moment ago. When it finishes importing, click on it and copy the URL.
+
+Go to your stylesheet and add a font section at the top and add a name for the font (you can decide). For example:
+
+```
+@font-face {
+  font-family: niceFont;
+  src: url(<PASTE THE URL FROM THE ASSETS FOLDER HERE>
+}
+```
+
+Don't put spaces in the font name. 
+
+*If you are not using Glitch and instead your own webserver and editing with Atom or SublimeText or Visual Studio Code you can put your font in an assets folder and then the second line above would change to: ```src: url(assets/<font-file-name.ttf>;```*
+
+Now you can use that font in a section on your stylesheet. For example, if you want all paragraphs to use that font:
+
+```
+p {
+  font-family: niceFont;
+}
+```
+
+This is the same line of text as above, but now it will apply that font to your paragraph text. If you want to change the font for your entire website, you can place this in body instead of p.
+
+#### More info on fonts
+
+- [Google fonts](https://www.w3schools.com/css/css_font_google.asp) on w3schools
+- [@font-face and custom fonts](https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp) on w3schools
 
 #### Design Principles
 
@@ -192,6 +245,8 @@ Also consider Simulation (The "Wizard of Oz" approach).
 ![time UI](../assets/images/time.jpg)  
 *[source](https://www.flickr.com/photos/anthonyarmendariz/4448219885/in/pool-1070674@N20/)*  
 
+
+
 ## Units of measurement
 
 There are 5+ ways to specify sizes in CSS!
@@ -236,31 +291,46 @@ More info on [CSS units](https://www.w3schools.com/CSSref/css_units.asp) on w3sc
 What is it?
 
 Design should respond to the user's behavior and environment. This could be based on screen size, orientation (vertical or horizontal), and platform (Mac, Windows, iOS, Android, Linux, etc).
-- 
+
 - How do you do it?
+ 
+``
   
 1. consider your viewport width
-2. use flexbox
-3. pay attention to font sizes
+2. use flexbox (or CSS grid) to make sizing flexible
+3. pay attention to font sizes (small size on small screen = hard to read)
+4. use media queries (aka set breakpoints) to resize things for small screens
+
+#### Step 1: Set the viewport width.
+ 
+Place this somewhere in the <head> section:
+
+```
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+```
+
+#### Step 2: Use flexbox to make sizing / placement flexible
+
+Covered earlier in class. See Flexbox notes.
+
+#### Step 3: Consider font sizes. Use different sizing that may be more flexible for your needs. Examples include viewport units.
 
 If the CSS width property is set to 100% of the viewport, the image will be responsive and scale up and down:
  
 A better solution, in many cases, will be to use the max-width property instead so that it is not larger than the screen.
 
-#### Media Queries
+#### Step 4: Media Queries
+
+In the example below, if the user's screen is less than 800 pixels then the container class (which has been set previously as a flexbox with default settings) will have the flex-direction be changed to column view. This is a good approach when you want to change from a horizontal sequence of divs to a vertical orientation on a phone.
 
 ```
-
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 800px) {
-  .left, .main, .right {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  .container {
+      flex-direction: column;
   }
 }
-
 ```
-
-
 
 #### Resources
 
@@ -270,5 +340,7 @@ Additional resources:
 
 #### Homework
 Read about [Responsive Design](https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/) in Smashing Magazine.  
+
+Make a copy of last week's homework and now alter it. Make it responsive using CSS. You can choose for example the breakpoints (at what pixel size does it switch to a vertical orientation for example). The goal is to make a useable interface that will resize and look good for phones, tablets and desktop.
   
 *source: User-Centered Design is adapted from MIT Open Courseware 6.831 User-Centered Design*
