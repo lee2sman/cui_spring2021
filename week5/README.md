@@ -46,7 +46,7 @@ Example questions:
 
 The goal is to gather research/data, then update your design brief.
 
-##### Research Method 3 -
+##### Research Method 3
 
 Field Research means you find users in public and observe their behavior in context. Users may think they have a particular need or pattern, but it may turn out that their own actions diverge from what they think. In this method you observe without participating or interfering.
 
@@ -78,13 +78,19 @@ Like our earlier usability testing, after you've built the first version of the 
 
 ## In-class Activity - Following our User Experience Design Methodology to create Prototypes and Crazy 8s
 
-Spend 20 minutes brainstorming *app* ideas that would augment your life, something that would be specific to you and/or perhaps a friend or family member. Just make a list. It's important to get all of your ideas out. Good ideas, bad ideas. Capture the ideas down with a word or phrase or sentence. Don't judge them yet. Don't consider them in detail yet. Just put them down and let them sit in a list.
+1. Design brief
+
+Spend 10-20 minutes brainstorming *app* ideas that would augment your life, something that would be specific to you and/or perhaps a friend or family member. Just make a list. It's important to get all of your ideas out. Good ideas, bad ideas. Capture the ideas down with a word or phrase or sentence. Don't judge them yet. Don't consider them in detail yet. Just put them down and let them sit in a list.
+
+2. Research
 
 Now find a partner and interview them. Conduct design research and from this create a design brief based on their needs. Spend a few minutes refining your concept. Ask them questions. Follow our User Experience Design Methodology.
 
 ##### In-class Activity - Crazy 8s
 
-Fold a sheet of paper twice so you have 8 panels.
+3. Paper Prototyping
+
+Fold a sheet of paper so you have 8 panels.
 
 ![Crazy 8s design prototyping activity](../assets/images/crazy-8s.jpg)
 
@@ -92,11 +98,17 @@ In each panel draw a prototype sketch for your interface based on your research 
 
 ⌛ You have exactly [10 minutes](https://e.ggtimer.com/10%20minutes) to spend sketching 8 potential UIs. This is not a time for tiny details.
 
+4. Refinement
+
 Now meet with your partner and compare your designs. Spend a few minutes analyzing them. Which design seems most promising? Add any details that come up in discussion.
+
+5. Paper Mockup
 
 ⌛ Now spend 10 minutes sketching out one of the designs in more detail. You can each work separately or choose to work together.
 
 ![storyboarding an interface](../assets/images/storyboard.jpg)
+
+6. Flowchart (Storyboard)
 
 ⌛ From this sketched design it's now time to draft a storyboard. This is a workflow showing step by step screens in successive order by a user. Sometimes you may want to demonstrate branching options and flows.
 
@@ -105,7 +117,9 @@ Continue to follow the design methodology:
 - Usability testing
 - Refinement and further usability testing
 
-## wireframing and mockups
+### wireframing and mockups
+
+7. mockup with design software
 
 There are many programs free and paid for creating mockups of interfaces. Some of the most common are [Figma](https://www.figma.com), a freemium/paid web-based application, and [Sketch](https://www.sketch.com/), a Mac-only UI prototyping application that runs on the Mac desktop. Other options include Adobe's XD, a freemium/paid Mac/Windows desktop software.
 
@@ -117,6 +131,18 @@ These programs work well, but I wanted to also present a free and open source wi
 - [penpot](https://penpot.app/) - more full-featured, appears similar to Figma
 
 ![mydraft.cc](../assets/images/mydraft.jpg)
+
+8. Test out your prototype with user testing
+
+Now find a new group of people to test out your prototype. Ideally they would be able to test both the UI and the flowchart (keep in mind the Metrocard machine *Wizard of Oz* tests with a *dummy* machine).
+
+Take notes. Have questions? Observe. How does your design brief need to be refined, if at all? How does your interface need to be refined?
+
+### 9. Last step! From prototype to first version in code
+
+Now that you have a refined design brief, some paper prototypes, digital mockups and use testing under your belt, you are ready to code up your interface. 
+
+We will use our HTML and CSS tools to build a version of the interface. Use ```<a href="">``` anchor links to jump between screens. *For this assignment, you do not need to actually present the functionality of the application or interface that you are prototyping*. In other words, if you are making a phone application interface, you do not need to code a functional phone! If you are building a messaging app or chatroom, you do not need to actually build that application. The emphasis is on the interface aspect.
 
 ## Homework:
 
