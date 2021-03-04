@@ -148,17 +148,9 @@ We will use our HTML and CSS tools to build a version of the interface. Use ```<
 
 ##### Reading
 
-Read [An App Can Be A Home-Cooked Meal](https://www.robinsloan.com/notes/home-cooked-app/) by Robin Sloan.
-
 Review [Google Developer UX Basics](https://developers.google.com/web/fundamentals/design-and-ux/ux-basics).
 
 ##### Activity: Co-Design and Prototype
-
-> People from different backgrounds often develop interpersonal relationships in dramatically different ways. The way our parents or grandparents met their friends or shared information publicly might be drastically different from us, and they can often feel excluded from mainstream social media that are not designed for them. If we can agree that the interpersonal is political, designing social media tools that do not embody an inclusive mindset means that we are excluding certain demographics from participating in the larger social and political aspects of life.
-
-For this assignment, interview someone who is at least 15 years older than you. The important thing is finding a really good interviewee.
-
-The goal of this assignment is to create a mockup of a prototype social media app. Discuss with your collaborator to find a single feature you will focus on (examples: messenger, feed, story). You will need to figure out the features it needs to best serve your collaborator. It is essential that you keep the scope of this assignment micro. You should concentrate on following our User Experience Design Methodology in order with **a focus on the interface design**.
 
 Begin by asking "what is the problem I’m trying to solve?"
 
@@ -167,14 +159,15 @@ A completed assignment includes:
 Week 1 (due March 10):
 
 - 1. Design Brief statement
-- 2. Notes from research and interview including your list of at least 6 questions.
-- 3. Pen/pencil/paper layout and wireframe sketches.
-- 4. Your digital prototypes (using Figma or your chosen software)
+- 2. Crazy 8's drawings
+- 3. Take one of your crazy 8's drawing and do a more detailed Pen/pencil/paper mockup layout 
+- 4. Create a flowchart of your app showing the different screens
+- 4. Digital prototypes (using flowchart.cc or Figma or your chosen software)
 
 Week 2 (due Mar 17):
 
 - 1. Notes from your user usability testing of your prototype
-- 2. Your second refined version of your prototype
+- 2. Your second refined version of your prototype (digital mockup)
 - 3. Your programmed interface
 
 #### Resources
@@ -184,39 +177,6 @@ Week 2 (due Mar 17):
 - [Responsive Web Design Basics](https://developers.google.com/web/fundamentals/design-and-ux/responsive) by Google Developers
 - [Graphical User Interface Gallery](http://toastytech.com/guis/index.html) containing user interfaces from various operating systems from 1980s to today
 
-source:
-
-*Co-Designing an Interface prototyping assignment adapted from Social Media Studio by [Xin Xin](http://social-media-studio.glitch.me/p1.html).*
-
-*Basics of User Experiences and Crazy 8s activity adapted from Google Developers [Web Fundamentals](https://developers.google.com/terms/site-policies) creative commons CC BY SA 4.0.*
-
-## Responsive UI
-
-Start with a sketch in your notebook.
-
-- pencil/pen and paper
-- what buttons are needed?
-- what are the defaults? how are they indicated?
-- how does this differ from the Metrocard machine?
-
-Mock up your layout using UI prototyping software.
-
-Examples: 
-
-- Figma.com
-- Adobe XD
-- Sketch	
-- wireframe.cc 
-  
-  Open source [software options](https://dzone.com/articles/27-open-source-web-ui-mockup-tools)
-  
-  
 [Article](https://uxplanet.org/the-magic-of-paper-prototyping-51693eac6bc3) on paper prototyping
   
-Method:
-
-- Implement it on glitch.com
-- Use Flexbox
-- Use a media query so that it checks for and works on phones
-- Test on multiple devices (your family or friends' phones) and use the Media Responsive tester on your browser
 
