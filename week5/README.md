@@ -162,7 +162,7 @@ Week 1 (due March 10):
 - 2. Crazy 8's drawings
 - 3. Take one of your crazy 8's drawing and do a more detailed Pen/pencil/paper mockup layout 
 - 4. Create a flowchart of your app showing the different screens
-- 4. Digital prototypes (using flowchart.cc or Figma or your chosen software)
+- 5. Digital prototypes (using mydraft.cc or Figma or your chosen software)
 
 Week 2 (due Mar 17):
 
