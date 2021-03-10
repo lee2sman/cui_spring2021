@@ -1,6 +1,6 @@
+Week 6
 
-# Today
-
+## Procedure
 - User Experience versus User Interface
 - UX workshop demo
 
@@ -220,4 +220,59 @@ And our style sucks. It's really bad and uninviting. Let's fix our fonts first b
 
 We covered how to use Google fonts in a previous class. Remember that you must link to the font's stylesheet prior to your own stylesheet in the <head> section of your html page.
 
+## Workshop: Continuing Iterative Design Process
+
+##### Internal reviews
+
+This is done with your own team/collaborators. Fast, find your best goals. Not as favored as independent user interviews.
+
+##### User interviews
+
+Convene at least five interviewees. Ask them questions relating to the design brief. This is considered the most ideal approach to follow when it's feasible.
+
+Example questions:
+ - what challenges do they face?
+ - what do they already use to accomplish that task/activity?
+ - show them prototypes - what do they like/dislike about this plan?
+ - what similar programs do they like?
+ - what would they change?
+
+The goal is to gather research/data, then update your design brief.
+
+#### Usability Testing
+
+Now is the time to gather people to test your design. You'll let them interact with your prototype, by pressing, clicking, potentially "even Wizard of Oz" approaches like we learned about from David Reinfurt's test of the prototype Metrocard screens.
+
+Like our earlier co-designing session it's best to observe rather than engage in a back-and-forth conversation as you do not want to influence their actions. Ask questions to find out what the user likes, dislikes, finds intuitive, confusing, and whether it meets their needs.
+
+##### Refinement and Building
+
+Based on user usability testing you'll go back to the design and refine it. You made need to do more usability testing.
+
+Based on this work it's time to build the interface by translating your revised prototype into code.
+
+##### User Testing (and Refinement) Loop
+
+Like our earlier usability testing, after you've built the first version of the interface in code you'll need to test and observe its use. Based on this you will likely need to do successive layers of building, refinement and testing until you get to a final version everyone is happy with.
+
+##### Refinement and Building
+
+Based on user usability testing you'll go back to the design and refine it. You made need to do more usability testing.
+
+Based on this work it's time to build the interface by translating your revised prototype into code.
+
+##### User Testing (and Refinement) Loop
+
+Like our earlier usability testing, after you've built the first version of the interface in code you'll need to test and observe its use. Based on this you will likely need to do successive layers of building, refinement and testing until you get to a final version everyone is happy with.
+
+## Homework
+
+Read [An App Can Be A Home-Cooked Meal](https://www.robinsloan.com/notes/home-cooked-app/) by Robin Sloan.
+
+
+#### Week 2 (due Mar 17):
+
+- 1. Notes from your user usability testing of your prototype
+- 2. Your second refined version of your prototype
+- 3. Your programmed interface
 
