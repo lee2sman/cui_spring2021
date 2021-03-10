@@ -276,3 +276,8 @@ Read [An App Can Be A Home-Cooked Meal](https://www.robinsloan.com/notes/home-co
 - 2. Your second refined version of your prototype
 - 3. Your programmed interface
 
+Requirements:
+- Navigation should work! You should be able to jump to different pages based on your buttons
+- Your application should have at least 4 screens
+- One of your screens could be an "Intro screen" - see [examples](https://uxdesign.cc/introducing-your-app-the-right-way-bd20ceb0d607), and/or a help screen or settings screen. 
+- The interface should be "mobile first" meaning that it loads and looks good on a phone-sized device
