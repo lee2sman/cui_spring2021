@@ -2,9 +2,8 @@ week 7
 
 - check-in
 - User Inyerface
-- Social Media User Interfaces
-- review prototype 2
-- design patterns
+- Design Patterns
+- jQuery questions
 - widgets as templates
 - widgets with jQuery UI
 - 1-on-1s
@@ -13,11 +12,13 @@ week 7
 
 [User Inyerface](https://userinyerface.com/) competition! Can you finish?
 
+[Dark Patterns video](https://www.youtube.com/watch?v=kxkrdLI6e6M)
+
 ### Discussion
 
 From the reading: An App Can Be A Home-Cooked Meal
 
-#### Generating Designs Using information from analysis
+### Generating Designs Using information from analysis
 
 Things to consider to evaluate our prototypes:
 
@@ -64,16 +65,16 @@ These are self-contained and reusable graphical objects.
 
 Examples:
 
-![dropdown list](assets/images/dropdown.png)  
+![dropdown list](../assets/images/dropdown.png)  
 *Dropdown list*  
 
-![combobox](assets/images/combobox.jpg)  
+![combobox](../assets/images/combobox.jpg)  
 *Combobox*  
 
-![Tree widget](assets/images/tree.jpg)
+![Tree widget](../assets/images/tree.jpg)
 *Tree widget*  
 
-![Menubar](assets/images/pulldown.png)
+![Menubar](../assets/images/pulldown.png)
 *Menubar (aka pulldown menu)*  
 
 
@@ -126,9 +127,9 @@ What are examples of software that are too complex?
 
 1. Reduce information. Remove the unecessary.
 
-![remotes](assets/images/remote.png)
+![remotes](../assets/images/remote.png)
 
-![apple remotes](assets/images/apple-remote.jpg)
+![apple remotes](../assets/images/apple-remote.jpg)
 
 2. Combine elements
 
@@ -160,7 +161,7 @@ Use the first option especially for offline apps. Use the second option for spee
 #### jQuery Syntax
 
 ```
-$(selector).action()
+$(selector).action();
 ```
 
 Let's break this down
@@ -193,28 +194,28 @@ $(document).ready(function(){
 ##### jQuery selector examples
 
 ```
-$("p.intro")
+$("p.intro");
 ```
 
-Selects all <p> elements with class="intro"
+Selects all ```<p>``` elements with class="intro"
 
 ```
 $("a[target='_blank']")
 ```
 
-Selects all <a> elements with a target attribute value equal to "_blank"
+Selects all ```<a>``` elements with a target attribute value equal to "_blank"
 
 ```
 $("ul li:first")
 ``` 	
 
-Selects the first <li> element of the first <ul>
+Selects the first ```<li>``` element of the first ```<ul>```
 
-- more jQuery selector [examples](https://www.w3schools.com/jquery/jquery_selectors.asp)
+*more jQuery selector [examples](https://www.w3schools.com/jquery/jquery_selectors.asp)*
 
-##### jQuery Methods / events
+### jQuery Events
 
-Any action a user can do on the page is called an "event." Our script responds to these user events.
+**Any action a user can do on the page is called an "event." Our script responds to these user events.**
 
 ###### Examples:
 
@@ -245,7 +246,7 @@ Window Events:
 - scroll
 - unload
 
-###### Syntax for jQuery events
+#### Syntax for jQuery events
 
 ```
 $('p').click(function(){
@@ -269,12 +270,11 @@ focus() is used when the user clicks on a form field.
 
 - many more jQuery events [examples](https://www.w3schools.com/jquery/jquery_events.asp)
 
-#### jQuery Resources
+### jQuery Resources
 
 - [Link](https://glitch.com/edit/#!/basic-jquery-starter) to my jQuery starter code/site on Glitch.
 - w3Schools jQuery [tutorial](https://www.w3schools.com/jquery/)
 - jQuery onClick button [examples](https://www.theextremewebdesigns.com/blog/jquery-on-click-event-examples/) tutorial
-
 
 ## jQuery UI
 
@@ -282,24 +282,25 @@ focus() is used when the user clicks on a form field.
 
 [Link](https://jqueryui.com)
 
+**Just like jQuery library you will need to make sure you link to jQuery UI library before your own jQuery script.**
+
 [Examples](https://jqueryui.com/demos/) for all of the widgets, including
 
 - accordions, autocomplete, buttons, checkboxes, radios, date pickers
 
-
 *Information from analysis, design patterns, widgets, simplicity was adapted from MIT 6.831 8, Generating Designs*
-
 
 ## Homework 
 
-### Read and Respond to Sari Laasko's [User Interface Design Patterns](https://www.cs.helsinki.fi/u/salaakso/patterns/).
+### 1. Read and Respond to Sari Laasko's [User Interface Design Patterns](https://www.cs.helsinki.fi/u/salaakso/patterns/) (very short read) and Harry Brignall's [Types of Dark Patterns](https://www.darkpatterns.org/types-of-dark-pattern). Brignall is the person that coined the term Dark Patterns 10 years ago, and maintains a [dark patterns wall of shame twitter account](https://twitter.com/darkpatterns).
 
 Laasko points out 21 different typical design patterns. Her writing is from 2003. Does any of the design seem out of date?
 
 - What does Laasko mean here by the term *Pattern*?
 - Pick 2 patterns detailed and consider your own use of interfaces. For each of the two describe in your own words the *pattern* and find an example from an interface you currently use somewhere in your everyday life. For each, describe elements that work well, and elements that are poor interface design).
+- Lastly, have you experienced *dark patterns* in any apps or interfaces recently? What did you experience? Why was the UI designed this way? 
 
-### Rework another classmate's assignment and *improve* it.
+### 2. Rework another classmate's assignment and *improve* it.
 
 Try out your classmate's interface. Is it usable? useful? desirable? valuable? findable? credible? accessible? (the Usability honeycomb)
 
@@ -309,3 +310,4 @@ Review their design brief, prototypes, wireframe, and final program.
 2. Create a new paper prototype. How does it differ from the work you are responding to?
 3. Build your digital wireframe/mockup. How does it improve upon the previous designer's work? At this stage, you may want to do some rounds on getting additional feedback and doing user testing.
 4. Finally, build your version of the program. You may use previous code and build upon it, or create your own original program.
+
