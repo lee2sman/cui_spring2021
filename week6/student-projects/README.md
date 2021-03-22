@@ -11,6 +11,7 @@
 
 ### Mac - Studio Smith Recordings
 - [app](https://studio-smith-recording.glitch.me/) 
+- [prototype](https://mydraft.cc/c13cojc3ntcv5ka932bg)
 - [code](https://glitch.com/edit/#!/studio-smith-recording)
 
 ### Tushar - Flashback
