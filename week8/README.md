@@ -72,6 +72,5 @@ Write: Pick an application with which you are intimately familiar, using it freq
 Create your own List-making application and interface. Alternatively, it could be a program to list your friends' birthdays, your meals for the week, a shopping list, your dreams, etc. 
 
 Because this is an application and interface for *you* (not for others), you do not need to do user testing (except for yourself). 
-1. Write a short 1-2 sentence design brief.
-2. Create a digital mockup using the UI design software/web-application of your choice.
-3. Use our starter code from class, with the goal being to add your own HTML, CSS, fonts, icons and jQuery code to make the program match your own needs and design goals.
+
+Use our starter code from class, with the goal being to add your own HTML, CSS, fonts, icons and jQuery code to make the program match your own needs and design goals.
