@@ -85,7 +85,7 @@ How to interact with Alexa - Voice Design Guide - [video](https://www.youtube.co
 
 Designing a simple Voice User Interface
 
-[Grocery List Voice App](https://glitch.com/edit/#!/grocery-list-voice-app?path=README.md%3A7%3A4) - VUI project starter example
+[code on glitch](https://glitch.com/edit/#!/voice-commands-starter) - project starter example for a list-making VUI
 
 # Homework
 
@@ -116,4 +116,7 @@ Based on your previous list application, design a voice user interface.
 5. Now implement the coding based on the given starter code
 
 You do not need to turn in the answer to these questions. Just a link to your program.
+
+
+[code on glitch](https://glitch.com/edit/#!/voice-commands-starter) - project starter example for a list-making VUI
 
