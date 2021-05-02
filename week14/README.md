@@ -78,13 +78,13 @@ by Sean Montgomery (Founder EmotiBit), Conor Russomanno (CEO and Co-Founder Open
 
 > Electrical and chemical signals are constantly traveling throughout our brains and bodies, carrying sensations, thoughts, emotions and our reactions to the world around us. Studying these signals and how they are altered by external stimuli and internal contexts gives us a window into ourselves and how we can enhance our health, well-being, and capabilities in the 21st century. Using open-source tools like Processing, EmotiBit, and OpenBCI and XTH we will discuss how sensing signals from the body can be used in research, education, art, DIY projects and, perhaps, to alter the future of human cognition.
 
-### This wednesday: In-progress presentations
+### This wednesday: In-progress check-ins
 
-Demonstration of working speculative interface.
+Demonstration of working speculative interfaces.
 
-We will each give feedabck.
+We will meet in small groups to give feedback.
 
-### Final deliverables due Wednesday May 12, 5pm:
+### Final deliverables due Wednesday May 12 at 2:30pm 
 
 1. Title
 2. Concept Description of the interface
